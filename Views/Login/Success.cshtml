@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ASP.NET Registration Page</title>
+    <link rel="stylesheet" href="~/css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" >
+    
+</head> 
+  <body class="container">
+    <div class="col-lg-1 col-offset-6 centered">
+      <div class="jumbotron text-center">
+        <h4>Welcome user, @ViewBag.User_all.first_name </h4>
+        <p> @ViewBag.display</p>
+      </div>
+      <form action='/logout' method='post'>
+      <input type="submit" value="Logout">
+      </form>
+    </div>
+  </body>
+</html>
+
+  
